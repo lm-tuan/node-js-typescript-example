@@ -6,6 +6,10 @@ export class User {
   public password: string
   // tslint:disable-next-line: no-any
   constructor(json: any) {
+    console.log('json-----------------',json);
     Object.assign(this, json)
   }
+  
 }
+
+

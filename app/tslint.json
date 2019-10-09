@@ -9,6 +9,8 @@
     "tslint-no-unused-expression-chai"
   ],
   "rules": {
+    "ordered-imports": [false],
+    "object-literal-sort-keys": [false],
     "no-function-constructor-with-string-args": false,
     "no-reserved-keywords": false,
     "no-increment-decrement": false,

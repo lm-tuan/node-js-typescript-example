@@ -18,13 +18,17 @@
     "coverage:all": "nyc --all npm run test"
   },
   "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/mongoose": "^5.5.19",
     "awilix": "^4.2.1",
     "aws-lambda": "^0.1.2",
     "aws-serverless-express": "^3.3.5",
+    "dotenv": "^8.1.0",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
+    "mongoose": "^5.7.3",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
